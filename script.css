@@ -1,0 +1,73 @@
+.parent{
+    background-color: rgb(183, 188, 202);
+    position: absolute;
+    padding:1000px 580px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.github{
+    padding:15px 550px;
+    background-color:hsla(255, 67%, 4%, 0.795);            
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    @media screen and (max-width: 700px){
+   .github{
+    font-size: 10px;
+    }
+   }
+    
+}
+img{
+               
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+.container{
+    padding-top: 100px;
+    padding-left: 1px;
+}
+.col-3{
+    border:3px solid rgb(60, 57, 63);
+    border-radius: 25px;
+    height: 400px;
+    background-color:rgb(60, 57, 63);
+}
+.col-9{
+    padding-left: 150px;
+}
+.search{
+    padding: 5px;
+    padding-right: 400px;
+    padding-top: 5px;
+    
+    width: 200px;
+    background-color: rgb(60, 57, 63);
+    color: white;
+    border:3px solid rgb(60, 57, 63);
+    border-radius: 5px;  
+}
+.square{
+    display: flex;
+    
+}
+.square>div{           
+   
+    padding-top: 10px;
+    width: 150px;
+    height: 100px;
+    background-color: rgb(60, 57, 63);
+    border:3px solid rgb(60, 57, 63);
+    border-radius: 10px; 
+    margin: 20px;
+                
+}
+.rectangle{
+    padding-top: 10px;
+    width: 600px;
+    height: 130px;
+    background-color: rgb(60, 57, 63);
+    border:3px solid rgb(60, 57, 63);
+    border-radius: 10px; 
+}
